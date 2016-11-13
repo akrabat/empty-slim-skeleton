@@ -1,0 +1,20 @@
+{
+    "name": "akrabat/empty-slim-skeleton",
+    "description": "An Slim 3 empty project.",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "keywords": ["slim-framework", "skeleton"],
+    "authors": [
+        {
+            "name": "Rob Allen",
+            "email": "rob@akrabat.com",
+            "homepage": "http://akrabat.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8888 -t public/ public/index.php"
+    }
+}
